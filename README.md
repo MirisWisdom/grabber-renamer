@@ -13,9 +13,15 @@ It will rename the downloaded episodes to their real names, e.g: `bVTiwZTHZS2Lmm
 > NOTE: It is assumed you have already downloaded videos using the ![Grabber](https://github.com/lap00zza/Grabber) add-on.
 Check out its ![README](https://github.com/lap00zza/Grabber/blob/master/README.md) for instructions on how to use it!
 
+## GUI
 1. Select the `metadata.json` file which Grabber generated.
 2. Select the folder where the episodes have been downloaded.
 3. Click on the `Rename Episode Files` button, and you're done!
+
+## CLI
+```
+renamer.cli.exe "metada.json" "path\to\episodes\folder"
+```
 
 # Requirements
 - Lap00zza's ![Grabber](https://github.com/lap00zza/Grabber)
