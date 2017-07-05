@@ -18,5 +18,5 @@ Check out its ![README](https://github.com/lap00zza/Grabber/blob/master/README.m
 3. Click on the `Rename Episode Files` button, and you're done!
 
 # Requirements
-- Lap00zza's ![Grabber](https://raw.githubusercontent.com/lap00zza/Grabber)
+- Lap00zza's ![Grabber](https://github.com/lap00zza/Grabber)
 - .NET Framework 4.5
