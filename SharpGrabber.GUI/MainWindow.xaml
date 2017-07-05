@@ -7,6 +7,7 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	Title="renamer 0.1.0"
 	Width="240"
+	Icon="icon.ico"
 	ResizeMode="CanMinimize"
 	SizeToContent="Height"
 	WindowStartupLocation="CenterScreen"
