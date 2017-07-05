@@ -57,7 +57,7 @@
 			<TextBlock Margin="0,10,0,0" TextAlignment="Center">
 				<Hyperlink NavigateUri="https://github.com/lap00zza/Grabber" RequestNavigate="OpenLink">lap00zza's grabber</Hyperlink>
 				|
-				<Hyperlink NavigateUri="https://github.com/lap00zza/Grabber" RequestNavigate="OpenLink">yumi's renamer</Hyperlink>
+				<Hyperlink NavigateUri="https://github.com/yumiris/grabber-renamer" RequestNavigate="OpenLink">yumi's renamer</Hyperlink>
 			</TextBlock>
 		</StackPanel>
 	</Grid>

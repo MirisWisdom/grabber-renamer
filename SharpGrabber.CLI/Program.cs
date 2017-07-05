@@ -35,6 +35,10 @@ namespace SharpGrabber.CLI
 			string metadataPath;
 			string episodesPath;
 
+			if (args.Length < 1) {
+				Environment.Exit(1);
+			}
+
 			if (!File.Exists(args[0]) || !args[0].Contains(".json")) {
 				Console.WriteLine("Please select a valid JSON file!");
 				Environment.Exit(1);
