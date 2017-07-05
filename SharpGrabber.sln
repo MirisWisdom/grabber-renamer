@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGrabber.Library", "SharpGrabber.Library\SharpGrabber.Library.csproj", "{591F864A-5449-441F-8D6C-D715F82B245B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGrabber.CLI", "SharpGrabber.CLI\SharpGrabber.CLI.csproj", "{025D6A36-825A-4957-9B54-0620DE14E3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGrabber.GUI", "SharpGrabber.GUI\SharpGrabber.GUI.csproj", "{AEFA0DB6-BC5B-4B30-A48D-52ABD387AF79}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591F864A-5449-441F-8D6C-D715F82B245B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591F864A-5449-441F-8D6C-D715F82B245B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591F864A-5449-441F-8D6C-D715F82B245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591F864A-5449-441F-8D6C-D715F82B245B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025D6A36-825A-4957-9B54-0620DE14E3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025D6A36-825A-4957-9B54-0620DE14E3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025D6A36-825A-4957-9B54-0620DE14E3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025D6A36-825A-4957-9B54-0620DE14E3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFA0DB6-BC5B-4B30-A48D-52ABD387AF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFA0DB6-BC5B-4B30-A48D-52ABD387AF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFA0DB6-BC5B-4B30-A48D-52ABD387AF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFA0DB6-BC5B-4B30-A48D-52ABD387AF79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
