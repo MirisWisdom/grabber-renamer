@@ -1,0 +1,63 @@
+﻿<Window
+	x:Class="SharpGrabber.GUI.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:local="clr-namespace:SharpGrabber.GUI"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	Title="renamer | yumiris"
+	Width="240"
+	ResizeMode="CanMinimize"
+	SizeToContent="Height"
+	WindowStartupLocation="CenterScreen"
+	mc:Ignorable="d">
+	<Grid Margin="16">
+		<StackPanel>
+			<StackPanel.Resources>
+				<Style TargetType="Label">
+					<Setter Property="FontFamily" Value="Segoe UI Light" />
+				</Style>
+				<Style TargetType="Button">
+					<Setter Property="BorderBrush" Value="Orange" />
+					<Setter Property="Background" Value="White" />
+					<Setter Property="FontFamily" Value="Consolas" />
+					<Setter Property="BorderThickness" Value="1" />
+					<Setter Property="Padding" Value="5" />
+				</Style>
+			</StackPanel.Resources>
+			<Label
+				HorizontalContentAlignment="Center"
+				Content="renamer"
+				FontSize="48"
+				Foreground="Orange" />
+			<Label
+				HorizontalContentAlignment="Center"
+				Content="Sort Grabber Episodes"
+				Foreground="Gray" />
+			<Button
+				Margin="0,10,0,0"
+				Click="SelectJson"
+				Content="01: Select JSON Metadata" />
+			<Button
+				Margin="0,10,0,0"
+				Click="SelectFolder"
+				Content="02: Select Episodes Path" />
+			<Button
+				x:Name="RenameButton"
+				Margin="0,10,0,0"
+				Click="RenameEpisodes"
+				Content="03: Rename Episode Files" />
+			<Label Margin="0,10,0,0" Content="Log:" />
+			<TextBox
+				x:Name="LogTextBox"
+				Height="100"
+				IsReadOnly="True"
+				TextWrapping="Wrap" />
+			<TextBlock Margin="0,10,0,0" TextAlignment="Center">
+				<Hyperlink NavigateUri="https://github.com/lap00zza/Grabber" RequestNavigate="OpenLink">lap00zza's grabber</Hyperlink>
+				|
+				<Hyperlink NavigateUri="https://github.com/lap00zza/Grabber" RequestNavigate="OpenLink">yumi's renamer</Hyperlink>
+			</TextBlock>
+		</StackPanel>
+	</Grid>
+</Window>
