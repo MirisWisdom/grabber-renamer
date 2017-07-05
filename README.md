@@ -1,4 +1,4 @@
-<h1 align="center">Renamer</h1>
+<h1 align="center">renamer</h1>
 <p align="center">Sort <a href="https://raw.githubusercontent.com/lap00zza/Grabber">Grabber</a> Episodes</p>
 <p align="center"><img src="https://user-images.githubusercontent.com/10241434/27852936-a7597ad8-6193-11e7-802f-144bdc59173c.png"></p>
 
